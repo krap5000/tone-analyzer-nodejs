@@ -39,9 +39,9 @@ spec:
           imagePullPolicy: Always
           env:
             - name: TONE_ANALYZER_IAM_APIKEY
-              value: "not-a-real-password"
+              value: "1EMUU5MCfDoSVekBhn2bTGrPBTcQeJ1LUEaUXwhLS7tu"
             - name: TONE_ANALYZER_URL
-              value: "https://gateway.watsonplatform.net/tone-analyzer/api"
+              value: "https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/ad85adc6-30af-4e52-8c91-c002cabc1f26"
             - name: TONE_ANALYZER_IAM_URL
               value: "https://iam.bluemix.net/identity/token"
           ports:
